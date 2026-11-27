@@ -3,7 +3,7 @@
   "name": "accounting-migration-framework-filament",
   "display_name": "Accounting Migration Framework Filament",
   "description": "Filament 5 migration source and batch operations.",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "category": "presentation",
   "provider": "Liberu\\Accounting\\MigrationFrameworkFilament\\MigrationFrameworkFilamentServiceProvider",
   "requires": {
@@ -21,5 +21,12 @@
     "Batch counts and status",
     "Dry-run visibility"
   ],
-  "default_enabled": true
+  "default_enabled": true,
+  "presentation": {
+    "filament": {
+      "app": [
+        "Liberu\\Accounting\\MigrationFrameworkFilament\\MigrationFrameworkFilamentPlugin"
+      ]
+    }
+  }
 }
